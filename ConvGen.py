@@ -3,7 +3,6 @@ from Funcoes import *
 from ScreenFrames import *
 from Con_DB import *
 
-
 conver = Tk()
 
 class Application(Func, Frames, Conexao):

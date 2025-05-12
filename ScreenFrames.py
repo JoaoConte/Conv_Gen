@@ -56,16 +56,14 @@ class Frames():
         self.btn_conv = Button(self.conver, text = 'Layout arquivo Saida', bg = '#D3D3D3', font = 'Arial 15 bold', width= 40, height=2, command = self.relacionamento)
         self.btn_conv.place(relx = 0.23, rely = 0.35)
 
-        # self.btn_conv = Button(self.conver, text = 'Relacionar centro de custo', bg = '#D3D3D3', font = 'Arial 15 bold', width= 24, height=2, command = self.relacionamento)
-        # self.btn_conv.place(relx = 0.525, rely = 0.35)
 
         self.btn_apr = Button(self.conver, text = 'Importa arquivo Entrada', bg = '#D3D3D3', font = 'Arial 15 bold', width=40, height=2, command = self.tela_apr)
         self.btn_apr.place(relx = 0.23, rely = 0.50)
 
-        self.btn_exp1 = Button(self.conver, text = 'Importa arquivo Saida', bg = '#D3D3D3', font = 'Arial 15 bold', width= 40, height=2, command = self.exporta_padrao)
+        self.btn_exp1 = Button(self.conver, text = 'Gerar Arquivo Convertido', bg = '#D3D3D3', font = 'Arial 15 bold', width= 40, height=2, command = self.exporta_padrao)
         self.btn_exp1.place(relx = 0.23, rely = 0.65)   
 
-        self.btn_exp2 = Button(self.conver, text = 'Gerar Arquivo Convertido', bg = '#D3D3D3', font = 'Arial 15 bold', width= 40, height=2, command = self.exporta_padrao)
-        self.btn_exp2.place(relx = 0.23, rely = 0.80)  
+        # self.btn_exp2 = Button(self.conver, text = 'Gerar Arquivo Convertido', bg = '#D3D3D3', font = 'Arial 15 bold', width= 40, height=2, command = self.exporta_padrao)
+        # self.btn_exp2.place(relx = 0.23, rely = 0.80)  
 
 

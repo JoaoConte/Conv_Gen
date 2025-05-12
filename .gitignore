@@ -1,0 +1,52 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__
+# Backup files # 
+*.bak 
+# Python # 
+*.py[cod] 
+*$py.class 
+# Distribution / packaging 
+convger/
+.Python build/ 
+develop-eggs/ 
+downloads/ 
+eggs/ 
+.eggs/ 
+lib/ 
+lib64/ 
+parts/ 
+dist/ 
+wheels/ 
+*.whl
+*.egg-info/ 
+.installed.cfg 
+*.egg 
+*.manifest 
+*.spec 
+teste.py
+teste1.py
+teste2.py
+teste3.py
+teste4.py
+teste5.py
+teste6.py
+teste7.py
+teste8.py
+teste9.py
+# pyenv 
+.python-version 
+# Environments 
+.env 
+.venv 
+env/ 
+venv/ 
+# Visual Studio Code # 
+.vscode/* 
+!.vscode/settings.json 
+!.vscode/tasks.json 
+!.vscode/launch.json 
+!.vscode/extensions.json 
+.history
